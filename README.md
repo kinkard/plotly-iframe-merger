@@ -7,6 +7,18 @@ For HTML distribution simplicity, this script replaces `<iframe>` tags via ifram
 
 ## Usage
 
-```sh
-python embed_iframe.py -i <path to input HTML> -o <optional path to output HTML>
+```
+$ python embed_iframe.py -i <path to input HTML> -o <optional path to output HTML>
+```
+
+```
+$ python embed_iframe.py -h
+usage: embed_iframe.py [-h] -i INPUT [-o OUTPUT]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT, --input INPUT
+                        input HTML file name
+  -o OUTPUT, --output OUTPUT
+                        [optional] output file name, if not set - 'embedded_' prefix will be added
 ```
